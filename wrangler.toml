@@ -1,0 +1,7 @@
+name = "fets-jokes-to-slack-demo"
+main = "src/worker.ts"
+compatibility_date = "2023-07-10"
+
+
+[triggers]
+crons = ["0 10 * * *"] # every day at 10:00 UTC
